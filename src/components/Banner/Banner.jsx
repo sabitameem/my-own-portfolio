@@ -1,4 +1,4 @@
-import image from "../../assets/profile-pic.jpg";
+import image from "../../assets/dpp.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -12,11 +12,11 @@ import "./banner.css";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex item-center"
+      className="min-h-[55vh] lg:min-h-[78vh] flex item-center"
       id="home"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="flex flex-col lg:gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center  font-secondary lg:text-left">
             <span className="text-white font-rajdhani mb-2 ">Hi, I am</span>
@@ -42,7 +42,7 @@ const Banner = () => {
               <TypeAnimation
                 sequence={["MERN Stack developer", 2000, "Web Designer", 2000]}
                 speed={50}
-                className="text-accent"
+                className="text-green-600"
                 wrapper="span"
                 repeat={Infinity}
               ></TypeAnimation>
@@ -75,7 +75,7 @@ const Banner = () => {
             <motion.div variants={fadeIn('up', 0.6)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once:false,amount:0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+              viewport={{once:false,amount:0.7}} className="flex text-[29px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="https://github.com/sabitameem">
                 <FaGithub></FaGithub>
               </a>

@@ -9,7 +9,7 @@ import Skills from './components/Skills/Skills';
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className=' overflow-hidden text-black'>
      <Header></Header>
      <Banner></Banner>
      <Nav></Nav>
