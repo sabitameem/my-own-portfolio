@@ -2,7 +2,7 @@
 
 const Projects = () => {
     return (
-        <div>
+        <div className="section" id="projects">
             <h3>Projects</h3>
         </div>
     );

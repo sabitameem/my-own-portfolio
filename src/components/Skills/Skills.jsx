@@ -2,7 +2,7 @@
 
 const Skills = () => {
     return (
-        <div>
+        <div className="section"  id="skills">
             <h3 className="text-[#DCEFFA]">Skills</h3>
         </div>
     );

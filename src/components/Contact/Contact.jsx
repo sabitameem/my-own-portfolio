@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div className="section"  id="contact">
            <h3  className="text-[#FFC6A5]">Contact</h3> 
         </div>
     );

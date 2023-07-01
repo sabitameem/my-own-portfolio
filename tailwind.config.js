@@ -25,10 +25,11 @@ export default {
     ,extend: {
       colors:{
         primary: '#0a0a0a',
-        accent: '#FFC6A5',
+        accent: '#B809C3',
       }
       ,backgroundImage: {
-        site: "url('./src/assets/Snow.svg')"
+         site: "url('./src/assets/Snow.svg')"
+        
       }
     },
   },
