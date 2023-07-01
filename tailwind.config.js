@@ -6,9 +6,12 @@ export default {
   ],
   theme: {
     fontFamily:{
-      primary: 'Orbitron',
-      secondary: "Rajdhani",
-      tertiary:"Aldrich"
+      primary : 'Orbitron',
+      secondary : 'Rajdhani',
+      tertiary :'Aldrich'
+      // primary: 'Orbitron',
+      // secondary: "Rajdhani",
+      // tertiary:"Aldrich"
     },
     container: {
       padding: {
@@ -30,7 +33,10 @@ export default {
       ,backgroundImage: {
          site: "url('./src/assets/Snow.svg')"
         
-      }
+      },
+      fontFamily: {
+        rajdhani: ['Rajdhani', 'sans-serif'],
+      },
     },
   },
   plugins: [],

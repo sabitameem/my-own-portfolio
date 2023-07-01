@@ -59,9 +59,7 @@ const Nav = () => {
           </Link>
         </div>
 
-        <div className="wi-full flex justify-center mb-0 items-center">
-          <p className="text-white/50">copyright</p>
-        </div>
+       
       </div>
     </nav>
   );
