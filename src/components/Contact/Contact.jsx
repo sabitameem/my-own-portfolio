@@ -20,7 +20,7 @@ const Contact = () => {
   };
     return (
         <section className="py-8 lg:py-24 lg:h-screen container mx-auto min-h-[85vh] lg:min-h-[78vh] " id="contact">
-           <h2 className='section_title text-[24px] font-semibold text-green-800 font-rajdhani '>Get in touch</h2>
+           <h2 className='section_title text-[34px] font-semibold text-green-800 font-rajdhani '>Get in touch</h2>
            <span className='section_subtitle font-rajdhani text-green-800 flex justify-center'>Contact Me</span>
            <div className='contact_content flex flex-col lg:flex-row gap-12'>
             <img className='w-[300px] h-[300px] mx-auto lg:mx-0 lg:w-[500px] lg:h-[450px]' src={image} alt="" />
