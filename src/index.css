@@ -80,4 +80,5 @@
     .section{
         @apply py-8 lg:py-24 flex lg:h-screen items-center
     }
+    
 }
