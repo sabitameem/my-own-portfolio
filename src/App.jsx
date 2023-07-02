@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import './App.css'
 import About from './components/About/About';
 import Banner from './components/Banner/Banner';
@@ -19,6 +20,7 @@ const App = () => {
      <Projects></Projects>
      <Contact></Contact>
      <Footer></Footer>
+     <ToastContainer />
     
      {/* <div className='h-[4000px]'></div> */}
     </div>
