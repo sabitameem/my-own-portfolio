@@ -1,17 +1,23 @@
 import front from "../../assets/dpp.jpg";
 import { BsPinMapFill } from "react-icons/bs";
 import "./about.css";
-import Resume from '../../assets/Resume of SabitaMeem.pdf'
+import Resume from "../../assets/Resume of SabitaMeem.pdf";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  })
+
   return (
     <section
       id="about"
-      className="container mx-auto min-h-[85vh] lg:min-h-[78vh] py-5"
-    >
+      className="container mx-auto min-h-[85vh] lg:min-h-[78vh] py-5">
       <div className="flex flex-col lg:flex-row gap-x-20 items-center">
         {/* image */}
-        <div className="image-container">
+        <div data-aos="zoom-in-right" className="image-container">
           <img
             src={front}
             alt="Foreground Image"
@@ -19,7 +25,7 @@ const About = () => {
           />
         </div>
         {/* text */}
-        <div>
+        <div data-aos="zoom-in-left">
           <p className="font-rajdhani font-semibold text-green-700">About Me</p>
 
           <div className="flex">
@@ -42,10 +48,11 @@ const About = () => {
             <br className="hidden lg:block" /> to make a lasting impact as a
             junior MERN stack developer.
           </p>
-          <a download='' href={Resume}><button className="btn btn-sm">DownLoad Resume</button></a>
+          <a download="" href={Resume}>
+            <button className="btn btn-sm">DownLoad Resume</button>
+          </a>
         </div>
       </div>
-
     </section>
   );
 };
