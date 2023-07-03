@@ -2,19 +2,20 @@ import front from "../../assets/dpp.jpg";
 import { BsPinMapFill } from "react-icons/bs";
 import "./about.css";
 import Resume from "../../assets/Resume of SabitaMeem.pdf";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const About = () => {
-  useEffect(()=>{
-    Aos.init({duration:1000})
-  })
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  });
 
   return (
     <section
       id="about"
-      className="container mx-auto min-h-[85vh] lg:min-h-[78vh] py-5">
+      className="container mx-auto min-h-[85vh] lg:min-h-[78vh] py-5"
+    >
       <div className="flex flex-col lg:flex-row gap-x-20 items-center">
         {/* image */}
         <div data-aos="zoom-in-right" className="image-container">
@@ -35,19 +36,42 @@ const About = () => {
               <br className="hidden lg:block" /> based in Chittagong, Bangladesh
             </p>
           </div>
-          <p className="text-gray-600 my-3">
-            Experienced in MERN stack development, I am skilled in HTML, CSS,
-            JavaScript, React, Node.js,
-            <br className="hidden lg:block" /> Express.js, and MongoDB. I create
-            stunning, responsive websites with optimized code and{" "}
-            <br className="hidden lg:block" /> cutting-edge techniques. A
-            collaborative team player, I excel at crafting engaging web
-            interfaces.
-            <br className="hidden lg:block" /> With my comprehensive skill set
-            and unwavering dedication to excellence, I am ready{" "}
-            <br className="hidden lg:block" /> to make a lasting impact as a
-            junior MERN stack developer.
-          </p>
+          <div>
+            <p className="font-rajdhani font-semibold text-green-700 my-2">
+              Personal Info
+            </p>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 mb-3 font-rajdhani ">
+              <div className="">
+                <p className="text-gray-600">
+                  Full name :{" "}
+                  <span className="text-black">Sabita Binte Hoque Meem</span>
+                </p>
+                <p className="text-gray-600">
+                  Address :{" "}
+                  <span className="text-black">Chattogram,Bangladesh</span>
+                </p>
+                <p className="text-gray-600">
+                  Age :{" "}
+                  <span className="text-black">20 Years</span>
+                </p>
+              </div>
+              <div>
+                <p className="text-gray-600">
+                  Email :{" "}
+                  <span className="text-black">sabitameem578@gmail.com</span>
+                </p>
+                <p className="text-gray-600">
+                  Phone :{" "}
+                  <span className="text-black">+8801843571638</span>
+                </p>
+                <p className="text-gray-600">
+                  Nationality :{" "}
+                  <span className="text-black">Bangladeshi</span>
+                </p>
+              </div>
+            </div>
+          </div>
           <a download="" href={Resume}>
             <button className="btn btn-sm">DownLoad Resume</button>
           </a>

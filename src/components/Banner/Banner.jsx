@@ -76,10 +76,12 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{once:false,amount:0.7}} className="flex text-[29px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="https://github.com/sabitameem">
+              <a href="https://github.com/sabitameem" target="_blank"
+              rel="noopener noreferrer">
                 <FaGithub></FaGithub>
               </a>
-              <a href="https://www.linkedin.com/in/sabita-binte-hoque-meem-85a0b6280/">
+              <a href="https://www.linkedin.com/in/sabita-binte-hoque-meem-85a0b6280/" target="_blank"
+              rel="noopener noreferrer">
                 <FaLinkedin></FaLinkedin>
               </a>
             </motion.div>

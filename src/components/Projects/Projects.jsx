@@ -10,7 +10,7 @@ import { FaEye } from "react-icons/fa";
 
 const Projects = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   });
   return (
     <section
@@ -27,7 +27,7 @@ const Projects = () => {
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
         className="flex flex-col lg:flex-row justify-between gap-9 my-20 "
       >
         <img
@@ -90,7 +90,7 @@ const Projects = () => {
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
         className="flex flex-col lg:flex-row justify-between gap-9 my-20 "
       >
         <img
@@ -154,7 +154,7 @@ const Projects = () => {
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
         className="flex flex-col lg:flex-row justify-between gap-9 my-20 "
       >
         <img className="lg:w-[500px] w-full h-[300px]" src={nextPage} alt="" />
@@ -207,7 +207,7 @@ const Projects = () => {
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
         className="flex flex-col lg:flex-row justify-between gap-9 my-20 "
       >
         <img

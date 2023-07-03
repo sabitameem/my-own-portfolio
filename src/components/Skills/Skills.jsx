@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const Skills = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   });
   return (
     <section
@@ -25,7 +25,7 @@ const Skills = () => {
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
           className="content w-full"
         >
           <p className="title my-3 text-center">Frontend Developer</p>
@@ -90,7 +90,7 @@ const Skills = () => {
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
           className="content w-full"
         >
           <p className="title my-3 text-center">Backend Developer</p>
@@ -157,7 +157,7 @@ const Skills = () => {
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
           className="content w-full"
         >
           <p className="title my-3 text-center">Tools</p>
