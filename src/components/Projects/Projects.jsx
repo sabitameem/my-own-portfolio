@@ -37,7 +37,7 @@ const Projects = () => {
         />
         <div className="lg:px-8 py-auto">
           <p className="font-semibold text-green-800 font-rajdhani">
-            LinguaViva
+            LinguaViva <span className="font-normal">- A summer camp school website</span>
           </p>
           <p className="lg:text-base text-sm text-gray-500">
             Unlock Language Learning with Engaging Online Classes. Explore a
@@ -100,7 +100,7 @@ const Projects = () => {
         />
         <div className=" lg:px-8  py-auto">
           <p className="font-semibold text-green-800 font-rajdhani">
-            Food Bonkers
+            Food Bonkers <span className="font-normal">- A cooking website</span>
           </p>
           <p className="lg:text-base text-sm text-gray-500">
             Food Bonkers is captivating Collection of Renowned Chefs Recipes
@@ -160,7 +160,7 @@ const Projects = () => {
         <img className="lg:w-[500px] w-full h-[300px]" src={nextPage} alt="" />
         <div className="lg:px-8 py-auto">
           <p className="font-semibold text-green-800 font-rajdhani">
-            Next Page
+            Next Page <span className="font-normal">- A book marketplace website</span>
           </p>
           <p className="lg:text-base text-sm text-gray-500">
             Welcome to Next Page, your ultimate destination for all book lovers.
@@ -217,7 +217,7 @@ const Projects = () => {
         />
         <div className="lg:px-8 py-auto">
           <p className="font-semibold text-green-800 font-rajdhani">
-            Toy Building
+            Toy Building <span className="font-normal">- A toys marketplace website</span>
           </p>
           <p className="lg:text-base text-sm text-gray-500">
             Toy Building is a dynamic e-commerce website that offers a vast
