@@ -1,13 +1,13 @@
 import "./skills.css";
 import { HiCheckCircle } from "react-icons/hi";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Skills = () => {
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  })
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <section
       className="py-8 lg:py-24 lg:h-screen container mx-auto min-h-[85vh] lg:min-h-[78vh] "
@@ -20,11 +20,14 @@ const Skills = () => {
         My technical level
       </span>{" "}
       {/* box */}
-      <div className="flex flex-col lg:flex-row gap-y-12 justify-between font-rajdhani">
+      <div className="flex flex-col lg:flex-row gap-3 justify-between font-rajdhani">
         {/* frontend */}
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="content">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="content w-full"
+        >
           <p className="title my-3 text-center">Frontend Developer</p>
           <div className=" grid grid-cols-2 gap-16">
             <div className="">
@@ -84,9 +87,12 @@ const Skills = () => {
           </div>
         </div>
         {/* Backend */}
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="content">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="content w-full"
+        >
           <p className="title my-3 text-center">Backend Developer</p>
           <div className=" grid grid-cols-2 gap-16">
             <div className="">
@@ -148,9 +154,12 @@ const Skills = () => {
           </div>
         </div>
         {/* Tools */}
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="content">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="content w-full"
+        >
           <p className="title my-3 text-center">Tools</p>
           <div className=" grid grid-cols-2 gap-16">
             <div className="">
